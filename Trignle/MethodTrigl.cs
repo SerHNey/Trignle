@@ -8,13 +8,13 @@ namespace Trignle
 {
     internal class MethodTrigl
     {
-        public int a, b, c;
+        int a, b, c;
         public int Proverka(string numb)
         {
             try
             {
                 int num = Convert.ToInt32(numb);
-                if (num != 0 && num > 0)
+                if (num != 0 && num > 0 && num < 1000)
                 {
                     return num;
                 }else 
