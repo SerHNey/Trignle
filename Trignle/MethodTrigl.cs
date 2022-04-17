@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trignle
 {
-    internal class MethodTrigl
+    public class MethodTrigl
     {
         int a, b, c;
         public int Proverka(string numb)
